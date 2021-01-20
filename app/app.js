@@ -1,5 +1,5 @@
-const PRIVATE_KEY = "3914c136ff44638f0014e4023e9ade2d959ade38";
-const PUBLIC_KEY = "b42a07f66068abb2465e9d78979bea87";
+const PRIVATE_KEY = "sua chave privada";
+const PUBLIC_KEY = "sua chave publica";
 
 let timeStamp = new Date().getTime();
 let hash = CreateTsPublicKeyPrivateKey(timeStamp + PRIVATE_KEY + PUBLIC_KEY).toString();
