@@ -1,0 +1,132 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<style>@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap'); body {font-family: 'Roboto', sans-serif;}</style>
+    <!-- CSS -->
+    <link rel="icon" href="ico.ico" type="image/x-icon"/>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+    <link rel="stylesheet" href="css/menu.css">
+    <link rel="stylesheet" href="css/banner.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/modal-content-navigate.css">
+    <link rel="stylesheet" href="css/pagination.css">
+    <link rel="stylesheet" href="css/modal-list-base.css">
+    <link rel="stylesheet" href="css/modal-list.css">
+    <link rel="stylesheet" href="css/modal-search-base.css">
+    <link rel="stylesheet" href="css/modal-search.css">
+    
+
+
+    <title>API | Marvel</title>
+</head>
+<body>
+
+<div id="body">
+
+    <header>
+        <div class="logo"><a href="index.html">API | MARvel</a></div>
+
+        <nav class="menu-desktop"><!--menu-desktop-->
+
+            <form method="post" id="form-search-desktop">
+                <label>
+                    <input type="text" placeholder="Busque aqui" id="input-search-desktop" required>
+                    <button id="btn-search">Buscar</button>
+                </label>
+            </form>
+        </nav>
+
+        <span class="menu-toggle" id="menu-toggle"> <i class="fas fa-bars"> </i></span>
+        <nav class="menu-mobile" id="menu-mobile">
+
+            <form method="post" id="form-search-mobile">
+                <label>
+                    <input type="text" placeholder="Busque aqui" id="input-search-mobile" required>
+                    <button>buscar</button>
+                </label>
+            </form>
+        </nav><!--menu-mobile-->
+    </header>
+
+    <section class="banner">
+        <img src="imagens/1.jpg" alt="...">
+        <img src="imagens/3.jpg" alt="...">
+    </section><!--banner-->
+<div id="top"></div>
+    <main>
+        <section class="container">
+            <div class="row" id="grid-row-container">
+                <!--conteudo carregado dinamicamene-->
+        </section><!--container-->
+    </main>
+
+    <div id="paginate">
+
+        <div class="controls">
+            <div class="first">&#171;</div><!--first-->
+            <div class="prev"><</div><!--prev-->
+            <div class="numbers">
+<!--                <div>1</div>-->
+            </div><!--numbers-->
+            <div class="next">></div><!--next-->
+            <div class="last">&#187;</div><!--last-->
+        </div><!--controls-->
+
+    </div> <!--paginate-->
+</div>
+
+<footer>
+    <p>Dados fornecidos pela Marvel. © 2014 Marvel</p>
+</footer>
+
+
+<!--modais-->
+<div class="bg-modal" id="bg-modal">
+<div>
+    <div class="box-modal">
+        <!--carregado dinamicamente com javascript-->
+    </div><!--box-modal-->
+</div>
+</div>
+
+<div class="bg-modal-search" id="bg-modal-search">
+    <div class="box-modal-search">
+        <div class="closeBtnSearch">X</div>
+        <div class="charecters" id="charecters"> <!--modal-search--></div>
+    </div><!--box-modal-search-->
+</div>
+
+<div class="bg-modal-navegate">
+    <div class="content-navigate">
+        <div class="closeBtn-navegate">X</div>
+        <h3>Seja bem vindo!</h3>
+        <p>Uma breve apresentação para navegar no site, abaixo você tem uma lista de todos os personagens da marvel.</p>
+        <img src="imagens/grid-navegation.jpg" alt=".." class="grid-img">
+        <p>Ao clicar no nome do persoangem é exibido mais detalhes. </p>
+        <img src="imagens/navegation-click.jpg" alt=".." class="grid-img">
+        <p>como mostra a imagem abaixo, para ver mais conteudo basta clicar em uma das opções</p>
+        <img src="imagens/modal.jpg" alt=".." class="grid-img1">
+        <p>Ao fazer uma busca por algum personagem,o personagem pode ter uma extensão no nome, por isso é mostrada uma lista com todos os personagens relacionados</p>
+        <img src="imagens/search.jpg" alt=".." class="grid-img1">
+    </div><!--content-navigate-->
+</div>
+
+
+
+<script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+<script src="js/menu-toggle.js"></script>
+<script src="js/banner-slider.js"></script>
+<script src="app/create-MD5.js"></script>
+<script src="app/app.js"></script>
+<script src="js/render.js"></script>
+<script src="js/pagination.js"></script>
+<script src="js/rules-modal.js"></script>
+<script src="js/how-to-navegate.js"></script>
+
+</body>
+</html>
+
+

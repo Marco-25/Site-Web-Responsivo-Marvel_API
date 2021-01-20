@@ -1,0 +1,140 @@
+.row-name-description-image > h4 {
+    text-align: center;
+    font-size: 1.5rem;
+    padding-bottom: .8rem;
+}
+
+.row-name-description-image > div {
+    display: flex;
+    justify-content: space-around;
+}
+
+.row-name-description-image > div > img {
+    width: 30%;
+    height: 12rem;
+    border-radius: .5rem;
+}
+
+.row-name-description-image > div > p {
+    padding: 0 2rem;
+    width: 60%;
+}
+.row-comics-series-stories-events {
+    display: flex;
+    flex-direction: column;
+    margin-top: .5rem;
+}
+.row-comics-series-stories-events > h5 {
+    text-align: center;
+    font-size: 1.3rem;
+    letter-spacing: .3rem;
+    text-transform: capitalize;
+    color: rgba(0,0,0, .9);
+    display: block;
+    width: 830px;
+    border-top: solid 2px gray;
+    border-top-left-radius: 1rem ;
+    border-top-right-radius: 1rem ;
+    cursor: pointer;
+}
+
+.row-comics-series-stories-events > ul {
+    display: none;
+    width: 820px;
+    height: auto;
+    max-height: 15rem;
+    min-height: 0;
+    background-color: rgba(0,0,0, .3);
+    border-radius: 1rem;
+    padding: 1rem 0;
+    overflow-y: auto;
+}
+
+.row-comics-series-stories-events > ul > li {
+    list-style-type: none;
+    padding-left: 1rem;
+    padding-bottom: .3rem;
+    font-size: 1.1rem;
+    color: rgba(0,0,0, 1);
+}
+
+.do-not-select {
+    -webkit-touch-callout: none;  /* iPhone OS, Safari */
+    -webkit-user-select: none;    /* Chrome, Safari 3 */
+    -khtml-user-select: none;     /* Safari 2 */
+    -moz-user-select: none;       /* Firefox */
+    -ms-user-select: none;        /* IE10+ */
+}
+
+
+@media screen and (max-width: 960px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 720px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 620px;
+    }
+}
+
+@media screen and (max-width: 740px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 520px;
+    }
+
+    .row-comics-series-stories-events > ul > li {
+        border-bottom: solid 1px white;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 480px;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .row-name-description-image > div { flex-direction: column; }
+    .row-name-description-image > div > img ,
+    .row-name-description-image > div > p {
+        width: 100%;
+    }
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 350px;
+    }
+}
+
+@media screen and (max-width: 361px) {
+    .row-comics-series-stories-events > ul ,
+    .row-comics-series-stories-events > h5 {
+        width: 300px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
